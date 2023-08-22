@@ -9,6 +9,8 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import com.extent.ReportManager;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.io.File;
@@ -24,6 +26,9 @@ public class BaseTest {
     	ChromeOptions options = new ChromeOptions();
     	options.setBrowserVersion("stable");
     	options.addArguments("--remote-allow-origins=*", "--ignore-certificate-errors");
+    	if (!ReportManager.systemName().equals("ASHIKULs-MBP")) {
+			options.addArguments("--headless");
+		}
         driver = new ChromeDriver(options);
         driver.manage().deleteAllCookies();
 
