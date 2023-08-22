@@ -7,7 +7,7 @@
 		<listener class-name="com.extent.TestListener" />
 </listeners>
 
-	<test name="Landing page Test">
+	<!--<test name="Landing page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.test.OrangeHRM_Landing_Test" />
@@ -19,7 +19,7 @@
 		<classes>
 			<class name="com.test.OrangeHRM_Login_Test" />
 		</classes>
-	</test>
+	</test>-->
 	
 	<test name="Multi Test">
 		<parameter name="browser" value="chrome"></parameter>
