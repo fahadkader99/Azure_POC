@@ -4,7 +4,7 @@
 
 <suite name="Suit" thread-count="3" parallel="tests" verbose="3">
 <listeners>
-		<listener class-name="com.reports.TestListener" />
+		<listener class-name="com.extent.TestListener" />
 </listeners>
 
 	<test name="Multi Test">

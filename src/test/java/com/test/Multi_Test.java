@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.base.BaseTest;
-import com.reports.ReportTestManager;
-import com.reports.TestListener;
+import com.extent.ReportTestManager;
+import com.extent.TestListener;
 
 @Listeners(TestListener.class)
 

@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 import com.base.BaseTest;
 import com.base.Constants;
 import com.page.OrangeHRM_page;
-import com.reports.ReportTestManager;
-import com.reports.TestListener;
+import com.extent.ReportTestManager;
+import com.extent.TestListener;
 
 @Listeners(TestListener.class)
 
